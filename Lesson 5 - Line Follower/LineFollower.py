@@ -1,5 +1,5 @@
 import time
-from Motor import *
+from SmartCarModules.Motor import *
 import RPi.GPIO as GPIO
 
 class Line_Tracking:
