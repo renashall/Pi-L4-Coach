@@ -13,7 +13,8 @@ commands = ["sudo apt-get update",
             "sudo apt-get install libhdf5-serial-dev","pip3 install sklearn", 
             "sudo apt-get install libatlas-base-dev","pip3 install tflite-runtime",
             "sudo apt-get install libjasper-dev", "sudo apt-get install libqtgui4",
-            "sudo apt-get install libqt4-test", "sudo modprobe bcm2835-v4l2"]
+            "sudo apt-get install libqt4-test", "sudo modprobe bcm2835-v4l2",
+            "sudo pip3 install picamera", "pip3 install --upgrade numpy"]
 failed = []
 for cmd in commands:
     for i in range(4):
